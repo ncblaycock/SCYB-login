@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
+    "dev:http": "NODE_ENV=development node server.js",
+    "dev:https": "NODE_ENV=development USE_HTTPS=1 node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js",
+    "start:https": "NODE_ENV=production USE_HTTPS=1 node server.js"
   },
   "dependencies": {
     "next": "^15.2.1",
