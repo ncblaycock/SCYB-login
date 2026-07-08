@@ -20,8 +20,14 @@ export default function Home() {
             Go to Hash Page
           </Link>
           <Link
-            href="/external-sources"
+            href="/hydra"
             style={{ display: 'inline-block', padding: '0.75rem 1.25rem', borderRadius: 8, background: '#7c3aed', color: '#fff', textDecoration: 'none' }}
+          >
+            Go to Hydra Page
+          </Link>
+          <Link
+            href="/external-sources"
+            style={{ display: 'inline-block', padding: '0.75rem 1.25rem', borderRadius: 8, background: '#f59e0b', color: '#fff', textDecoration: 'none' }}
           >
             Go to External Sources
           </Link>

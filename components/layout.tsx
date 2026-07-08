@@ -15,6 +15,7 @@ export default function Layout({ children }: LayoutProps) {
             <Link href="/" style={navLinkStyle}>Home</Link>
             <Link href="/login" style={navLinkStyle}>Login</Link>
             <Link href="/hash" style={navLinkStyle}>Hash</Link>
+            <Link href="/hydra" style={navLinkStyle}>Hydra</Link>
             <Link href="/external-sources" style={navLinkStyle}>External Sources</Link>
           </nav>
         </div>
