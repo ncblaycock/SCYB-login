@@ -20,10 +20,10 @@ export default function Home() {
             Go to Hash Page
           </Link>
           <Link
-            href="/hydra"
+            href="/rbac"
             style={{ display: 'inline-block', padding: '0.75rem 1.25rem', borderRadius: 8, background: '#7c3aed', color: '#fff', textDecoration: 'none' }}
           >
-            Go to Hydra Page
+            Go to RBAC Page
           </Link>
           <Link
             href="/external-sources"
